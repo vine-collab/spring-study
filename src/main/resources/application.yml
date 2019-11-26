@@ -1,2 +1,15 @@
+spring:
+  application:
+    name: mytest
+  mandatory-file-encoding: utf-8
+  http:
+    encoding:
+      enabled: true
+      charset: UTF-8
+
 server:
   port: 9090
+
+person:
+  name: tom
+  age: 18
