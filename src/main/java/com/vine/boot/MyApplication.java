@@ -20,12 +20,12 @@ public class MyApplication {
         SpringApplication.run(MyApplication.class, args);
     }
 
-    @PostConstruct
-    public void myLog(){
-        log.trace("trace msg");
-        log.debug("debug msg");
-        log.info("info msg");
-        log.warn("warn msg");
-        log.error("error msg");
-    }
+//    @PostConstruct
+//    public void myLog(){
+//        log.trace("trace msg");
+//        log.debug("debug msg");
+//        log.info("info msg");
+//        log.warn("warn msg");
+//        log.error("error msg");
+//    }
 }

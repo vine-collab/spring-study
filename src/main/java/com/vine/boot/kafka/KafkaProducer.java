@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @date 2019-12-15 18:18
  */
 @Component
-public class Producer {
+public class KafkaProducer {
 
     @Autowired
     private KafkaTemplate<String, String> kafkaTemplate;
