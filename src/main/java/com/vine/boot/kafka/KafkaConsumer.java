@@ -11,10 +11,10 @@ import org.springframework.stereotype.Component;
  * @author tengyue(hk177955)
  * @date 2019-12-15 18:23
  */
-@Component
+//@Component
 public class KafkaConsumer {
 
-    @KafkaListener(topics = "my_topic", groupId = "my_group")
+//    @KafkaListener(topics = "my_topic", groupId = "my_group")
     public void consume(ConsumerRecord<String, String > record){
         String s = new Gson().toJson(record).toString();
         System.out.println(s);
