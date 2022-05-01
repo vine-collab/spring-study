@@ -8,7 +8,7 @@ import org.springframework.stereotype.Component;
 /**
  * 消费者
  *
- * @author tengyue(hk177955)
+ * @author cao
  * @date 2019-12-15 18:23
  */
 //@Component

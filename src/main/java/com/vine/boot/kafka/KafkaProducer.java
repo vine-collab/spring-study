@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 /**
  * 消息生产者
  *
- * @author tengyue(hk177955)
+ * @author cao
  * @date 2019-12-15 18:18
  */
 @Component
