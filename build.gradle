@@ -48,11 +48,14 @@ repositories {
 dependencies {
     compile(
             "org.springframework.boot:spring-boot-starter-web",
-            'org.projectlombok:lombok:1.16.8',
             'org.springframework.boot:spring-boot-loader',
 //            'org.springframework.boot:spring-boot-starter-devtools',
             'org.springframework.kafka:spring-kafka',
             'com.google.code.gson:gson'
     )
+    compileOnly 'org.projectlombok:lombok:1.18.4'
+    annotationProcessor 'org.projectlombok:lombok:1.18.4'
+    testCompileOnly 'org.projectlombok:lombok:1.18.4'
+    testAnnotationProcessor 'org.projectlombok:lombok:1.18.4'
 
 }
